@@ -205,3 +205,37 @@ header {
     }
   }
 }
+
+// contents
+.contents {
+  background: #1b1b1b;
+  padding: 120px 0;
+  overflow: hidden;
+
+  .mainText {
+    width: 1170px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    padding-bottom: 50px;
+
+    &::before {
+      content: "";
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #ffec03;
+      position: absolute;
+      left: 50px;
+      top: 100px;
+    }
+
+    &::after {
+      content: "”";
+      font-size: 300px;
+      position: absolute;
+      left: 0;
+      top: 50px;
+    }
+  }
+}
