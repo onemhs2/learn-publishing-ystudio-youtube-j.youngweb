@@ -80,6 +80,7 @@ h6 {
 
 a {
   text-decoration: inherit;
+  color: inherit;
 }
 
 body {
@@ -105,7 +106,7 @@ header {
 }
 .innerHeader .logo {
   width: 170px;
-  height: 80px;
+  height: 60px;
   float: left;
   margin-right: 180px;
 }
@@ -152,6 +153,7 @@ header {
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 100%;
 }
 .visual .slide li .txt {
   position: absolute;
@@ -160,4 +162,23 @@ header {
   color: #fff;
   font-size: 18px;
   transform: translateY(-50%);
+}
+.visual .slide li .txt h3 {
+  font-size: 64px;
+  margin: 30px 0;
+}
+.visual .slide li .txt a {
+  display: inline-block;
+}
+.visual .slide li .txt a span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.visual .slide li .scroll {
+  position: absolute;
+  left: 50px;
+  bottom: 10%;
+  transform: rotate(-90deg);
+  color: #ccc;
+  font-weight: bold;
 }
