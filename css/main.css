@@ -194,7 +194,8 @@ header {
   margin: 0 auto;
   color: #fff;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
+  overflow: hidden;
 }
 .contents .mainText::before {
   content: "";
@@ -204,7 +205,7 @@ header {
   background: #ffec03;
   position: absolute;
   left: 50px;
-  top: 100px;
+  top: 130px;
 }
 .contents .mainText::after {
   content: "”";
@@ -212,4 +213,25 @@ header {
   position: absolute;
   left: 0;
   top: 50px;
+}
+.contents .mainText h3 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2;
+  float: left;
+  width: 30%;
+}
+.contents .mainText p {
+  float: right;
+  width: 70%;
+  font-size: 25px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+.contents .mainText p span {
+  display: block;
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #999;
 }
