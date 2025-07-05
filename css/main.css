@@ -267,7 +267,6 @@ header {
   width: 98%;
   margin: 0 auto;
   overflow: hidden;
-  outline: 1px solid red;
 }
 .contents .project ul li {
   float: left;
@@ -278,7 +277,6 @@ header {
   margin-right: 0;
 }
 .contents .project ul li a {
-  outline: 1px solid red;
   display: block;
   width: 100%;
   height: 100%;
@@ -294,7 +292,6 @@ header {
   transition: all 0.5s;
 }
 .contents .project ul li a .name {
-  outline: 1px solid red;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -310,4 +307,29 @@ header {
 }
 .contents .project ul li a .name h3 {
   text-transform: uppercase;
+}
+.contents .partner {
+  width: 1170px;
+  margin: 0 auto;
+  color: #fff;
+}
+.contents .partner h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.contents .partner ul {
+  outline: 1px solid red;
+  overflow: hidden;
+}
+.contents .partner ul li {
+  outline: 1px solid red;
+  float: left;
+  width: 25%;
+  height: 100px;
+  margin-top: 80px;
+  text-align: center;
+}
+.contents .partner ul li:nth-child(1), .contents .partner ul li:nth-child(5) {
+  width: 20%;
+  text-align: left;
 }
