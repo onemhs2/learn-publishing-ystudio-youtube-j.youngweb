@@ -298,6 +298,23 @@ header {
       }
     }
   }
+
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+      left: -100px;
+    }
+    100% {
+      opacity: 1;
+      left: 50px;
+    }
+  }
+
+  // 모션
+  .scroll {
+    animation: scroll;
+    animation-duration: 0.8s;
+  }
 }
 
 // contents
