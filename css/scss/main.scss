@@ -428,3 +428,43 @@ header {
     }
   }
 }
+
+footer {
+  background: #1b1b1b;
+  color: #999;
+  padding: 0 80px 80px;
+  position: relative;
+
+  ul {
+    overflow: hidden;
+
+    li {
+      float: left;
+      width: 33.3333%;
+
+      &:nth-child(2) {
+        color: #eee;
+        font-size: 16px;
+        line-height: 2;
+
+        span {
+          font-weight: bold;
+          margin-right: 10px;
+          color: #999;
+        }
+      }
+
+      &:nth-child(3) {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .goTop {
+    position: absolute;
+    right: 80px;
+    bottom: 60px;
+    font-size: 48px;
+    color: #fff;
+  }
+}
