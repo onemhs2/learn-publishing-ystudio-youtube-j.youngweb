@@ -96,6 +96,8 @@ body {
 .wrap {
   width: 100%;
   margin: 0 auto;
+  background: #fff;
+  position: relative;
 }
 
 header {
@@ -146,6 +148,43 @@ header {
   display: inline-block;
   vertical-align: middle;
   margin-top: -6px;
+}
+
+.gnb {
+  outline: 1px solid red;
+  padding: 70px 100px;
+  height: 100vh;
+  color: #666;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  z-index: 200;
+  box-sizing: border-box;
+  transition: all 0.8s;
+  background: #000;
+}
+.gnb.on {
+  right: 0;
+  transition: all 0.8s;
+}
+.gnb .close {
+  outline: 1px solid red;
+  font-size: 40px;
+  color: #fff;
+  float: right;
+  display: block;
+}
+.gnb ul li a {
+  outline: 1px solid red;
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.7;
+  transition: all 0.3s;
+}
+.gnb ul li:hover, .gnb ul li:first-child a {
+  color: #fff;
+  transition: all 0.5s;
 }
 
 .visual .slide li {
