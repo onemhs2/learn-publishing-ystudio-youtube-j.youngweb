@@ -928,3 +928,41 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    .innerHeader {
+      height: 55px;
+      padding: 0 15px;
+
+      .logo {
+        width: 55px;
+        padding: 0 15px;
+      }
+
+      .intorTxt {
+        line-height: 55px;
+      }
+
+      .menuOpen {
+        margin-top: 10px;
+        color: transparent;
+
+        span {
+          color: #fff;
+          font-size: 28px;
+        }
+      }
+    }
+
+    &.on {
+      .intorTxt {
+        opacity: 0;
+      }
+    }
+  }
+}

@@ -733,3 +733,30 @@ footer .goTop {
     height: 110px;
   }
 }
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 14px;
+  }
+  header .innerHeader {
+    height: 55px;
+    padding: 0 15px;
+  }
+  header .innerHeader .logo {
+    width: 55px;
+    padding: 0 15px;
+  }
+  header .innerHeader .intorTxt {
+    line-height: 55px;
+  }
+  header .innerHeader .menuOpen {
+    margin-top: 10px;
+    color: transparent;
+  }
+  header .innerHeader .menuOpen span {
+    color: #fff;
+    font-size: 28px;
+  }
+  header.on .intorTxt {
+    opacity: 0;
+  }
+}
