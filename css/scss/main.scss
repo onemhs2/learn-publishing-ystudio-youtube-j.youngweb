@@ -1078,6 +1078,87 @@ footer {
           margin-top: 30px;
         }
       }
+
+      ul {
+        width: 92%;
+
+        li {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 35px;
+
+          a {
+            .name {
+              text-align: left;
+              padding-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .partner {
+      margin: 80px auto;
+
+      ul {
+        li {
+          width: 50%;
+          text-align: center;
+          margin-top: 25px;
+          height: 80px;
+          line-height: 80px;
+
+          &:nth-child(1),
+          &:nth-child(5) {
+            width: 50%;
+            text-align: center;
+          }
+
+          &:nth-child(4n) {
+            width: 50%;
+            text-align: center;
+          }
+
+          &:nth-child(4n) {
+            img {
+              width: 44%;
+            }
+          }
+
+          img {
+            width: 60%;
+          }
+        }
+      }
+    }
+
+    .contact {
+      .inner {
+        font-size: 14px;
+
+        .tel {
+          font-size: 35px;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    ul {
+      li {
+        width: 100%;
+
+        &:nth-child(2) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .goTop {
+      font-size: 32px;
+      right: 15px;
+      bottom: 15px;
     }
   }
 }

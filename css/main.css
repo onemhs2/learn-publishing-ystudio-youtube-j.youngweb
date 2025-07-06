@@ -842,4 +842,58 @@ footer .goTop {
     font-size: 15pxx;
     margin-top: 30px;
   }
+  .contents .project ul {
+    width: 92%;
+  }
+  .contents .project ul li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+  .contents .project ul li a .name {
+    text-align: left;
+    padding-bottom: 0;
+  }
+  .contents .partner {
+    margin: 80px auto;
+  }
+  .contents .partner ul li {
+    width: 50%;
+    text-align: center;
+    margin-top: 25px;
+    height: 80px;
+    line-height: 80px;
+  }
+  .contents .partner ul li:nth-child(1), .contents .partner ul li:nth-child(5) {
+    width: 50%;
+    text-align: center;
+  }
+  .contents .partner ul li:nth-child(4n) {
+    width: 50%;
+    text-align: center;
+  }
+  .contents .partner ul li:nth-child(4n) img {
+    width: 44%;
+  }
+  .contents .partner ul li img {
+    width: 60%;
+  }
+  .contents .contact .inner {
+    font-size: 14px;
+  }
+  .contents .contact .inner .tel {
+    font-size: 35px;
+    margin: 30px 0;
+  }
+  footer ul li {
+    width: 100%;
+  }
+  footer ul li:nth-child(2) {
+    font-size: 14px;
+  }
+  footer .goTop {
+    font-size: 32px;
+    right: 15px;
+    bottom: 15px;
+  }
 }
