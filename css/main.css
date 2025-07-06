@@ -221,6 +221,9 @@ header.on .innerHeader .logo a img:nth-child(2) {
   height: 100vh;
   background: #222;
 }
+.visual .slide li:nth-child(3) img {
+  top: 0;
+}
 .visual .slide li img {
   position: absolute;
   right: 0;
@@ -643,5 +646,40 @@ footer .goTop {
   footer .goTop {
     right: 20px;
     bottom: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .visual .slide li img {
+    width: auto;
+    right: -30%;
+  }
+  .visual .slide li .txt h3 {
+    font-size: 50px;
+  }
+  @keyframes img {
+    0% {
+      opacity: 0;
+      right: -50px;
+      transform: scale(0.99);
+    }
+    100% {
+      opacity: 1;
+      right: -30%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding-top: 20px;
+  }
+  header.on {
+    padding: 10px 0 0;
+  }
+  .innerHeader {
+    padding: 0 30px;
+    height: 70px;
+  }
+  .innerHeader .logo {
+    width: 150px;
   }
 }
