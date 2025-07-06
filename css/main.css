@@ -617,4 +617,31 @@ footer .goTop {
   .contents .contact .inner {
     width: 90%;
   }
+  .contents .project ul li a:hover img {
+    transform: scale(1);
+  }
+  .contents .project ul li a .name {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+  .contents .project ul li a .name::after {
+    content: "⟶";
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 18px;
+  }
+  .contents .contact {
+    outline: 1px solid red;
+    width: 90%;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+  footer .goTop {
+    right: 20px;
+    bottom: 20px;
+  }
 }
