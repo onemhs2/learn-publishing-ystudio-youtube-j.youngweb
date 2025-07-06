@@ -725,3 +725,18 @@ footer {
     color: #fff;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .mo {
+    display: none;
+  }
+
+  .contents {
+    .mainText,
+    .project .top,
+    .partner,
+    .contact .inner {
+      width: 90%;
+    }
+  }
+}

@@ -606,3 +606,15 @@ footer .goTop {
   font-size: 48px;
   color: #fff;
 }
+
+@media screen and (max-width: 1200px) {
+  .mo {
+    display: none;
+  }
+  .contents .mainText,
+  .contents .project .top,
+  .contents .partner,
+  .contents .contact .inner {
+    width: 90%;
+  }
+}
