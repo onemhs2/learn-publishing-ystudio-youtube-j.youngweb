@@ -839,5 +839,92 @@ footer {
     .logo {
       width: 150px;
     }
+
+    .innerTxt {
+      line-height: 60px;
+    }
+  }
+
+  .gnb {
+    padding: 70px;
+
+    ul {
+      margin-right: 180px;
+    }
+  }
+
+  .visual {
+    .slide {
+      li {
+        img {
+          width: auto;
+          right: -68%;
+        }
+      }
+    }
+  }
+
+  @keyframes img {
+    0% {
+      opacity: 0;
+      right: -80%;
+      transform: scale(0.99);
+    }
+
+    100% {
+      opacity: 1;
+      right: -68%;
+    }
+  }
+
+  .visual {
+    .slide {
+      li {
+        .txt {
+          h3 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+
+  .contents {
+    .mainText {
+      &::before {
+        width: 80px;
+        height: 80px;
+        top: 150px;
+      }
+
+      &::after {
+        font-size: 280px;
+        top: 80px;
+      }
+    }
+
+    .project {
+      ul {
+        width: 95%;
+
+        li {
+          width: 48.8%;
+          margin-right: 2.2%;
+
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    ul {
+      li {
+        width: 50%;
+        height: 110px;
+      }
+    }
   }
 }
