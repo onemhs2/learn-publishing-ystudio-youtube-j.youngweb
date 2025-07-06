@@ -309,12 +309,6 @@ header {
       left: 50px;
     }
   }
-
-  // 모션
-  .scroll {
-    animation: scroll;
-    animation-duration: 0.8s;
-  }
 }
 
 .slick-arrow {
@@ -388,6 +382,11 @@ header {
     animation-name: scroll;
     animation-duration: 1s;
   }
+
+  img {
+    animation-name: img;
+    animation-duration: 1s;
+  }
 }
 
 @keyframes txt1 {
@@ -395,10 +394,12 @@ header {
     opacity: 0;
     transform: rotateX(180deg) translateY(-150px);
   }
+
   20% {
     opacity: 0;
     transform: rotateX(180deg) translateY(-150px);
   }
+
   100% {
     opacity: 1;
     transform: rotateX(0) translateY(0);
@@ -410,10 +411,12 @@ header {
     opacity: 0;
     transform: rotateX(180deg) translateY(150px);
   }
+
   20% {
     opacity: 0;
     transform: rotateX(180deg) translateY(-50px);
   }
+
   100% {
     opacity: 1;
     transform: rotateX(0) translateY(0);
@@ -424,9 +427,11 @@ header {
   0% {
     transform: translateX(0);
   }
+
   40% {
     transform: translateX(-50px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -437,13 +442,28 @@ header {
     opacity: 0;
     left: -100px;
   }
+
   30% {
     opacity: 0;
     left: -100px;
   }
+
   100% {
     opacity: 1;
     left: 50px;
+  }
+}
+
+@keyframes img {
+  0% {
+    opacity: 0;
+    right: -80px;
+    transform: scale(0.99);
+  }
+
+  100% {
+    opacity: 1;
+    right: 0;
   }
 }
 
