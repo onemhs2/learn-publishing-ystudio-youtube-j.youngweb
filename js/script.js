@@ -51,7 +51,6 @@ $(function () {
 });
 
 //.top-visual 이미지슬라이드
-
 $(function () {
   $(".visual .slide").slick({
     arrows: true, //화살표

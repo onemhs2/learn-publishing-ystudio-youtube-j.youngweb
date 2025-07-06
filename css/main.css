@@ -269,6 +269,19 @@ header.on .innerHeader .logo a img:nth-child(2) {
   animation-duration: 0.8s;
 }
 
+.slick-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #fff;
+  z-index: 20;
+  text-indent: -9999px;
+  border: none;
+}
+
 .contents {
   background: #1b1b1b;
   padding: 120px 0;
