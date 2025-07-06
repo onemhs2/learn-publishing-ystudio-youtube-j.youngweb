@@ -204,7 +204,6 @@ header {
 
 // gbn
 .gnb {
-  outline: 1px solid red;
   padding: 70px 100px;
   height: 100vh;
   color: #666;
@@ -222,7 +221,6 @@ header {
   }
 
   .close {
-    outline: 1px solid red;
     font-size: 40px;
     color: #fff;
     float: right;
@@ -232,7 +230,6 @@ header {
   ul {
     li {
       a {
-        outline: 1px solid red;
         display: block;
         font-size: 40px;
         font-weight: bold;
@@ -775,7 +772,6 @@ footer {
     }
 
     .contact {
-      outline: 1px solid red;
       width: 90%;
       background-attachment: scroll;
       background-position: center;
@@ -963,6 +959,79 @@ footer {
       .intorTxt {
         opacity: 0;
       }
+    }
+  }
+
+  .gnb {
+    padding: 30px;
+    width: 70%;
+
+    ul li a,
+    .close {
+      font-size: 30px;
+    }
+  }
+
+  .visual {
+    .slide {
+      li {
+        img {
+          width: auto;
+          right: -120%;
+        }
+
+        .txt {
+          font-size: 15px;
+
+          h3 {
+            font-size: 28px;
+          }
+        }
+
+        .scroll {
+          font-size: 12px;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .slick-arrow {
+    width: 50px;
+    height: 50px;
+
+    &.slick-prev {
+      bottom: 50px;
+    }
+  }
+
+  @keyframes img {
+    0% {
+      opacity: 0;
+      right: -115%;
+      transform: scale(0.99);
+    }
+
+    100% {
+      opacity: 1;
+      right: -120%;
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+      left: -50px;
+    }
+
+    30% {
+      opacity: 0;
+      left: -50px;
+    }
+
+    100% {
+      opacity: 1;
+      left: 0px;
     }
   }
 }

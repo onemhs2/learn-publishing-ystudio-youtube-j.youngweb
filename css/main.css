@@ -179,7 +179,6 @@ header.on .innerHeader .logo a img:nth-child(2) {
 }
 
 .gnb {
-  outline: 1px solid red;
   padding: 70px 100px;
   height: 100vh;
   color: #666;
@@ -196,14 +195,12 @@ header.on .innerHeader .logo a img:nth-child(2) {
   transition: all 0.8s;
 }
 .gnb .close {
-  outline: 1px solid red;
   font-size: 40px;
   color: #fff;
   float: right;
   display: block;
 }
 .gnb ul li a {
-  outline: 1px solid red;
   display: block;
   font-size: 40px;
   font-weight: bold;
@@ -637,7 +634,6 @@ footer .goTop {
     font-size: 18px;
   }
   .contents .contact {
-    outline: 1px solid red;
     width: 90%;
     background-attachment: scroll;
     background-position: center;
@@ -758,5 +754,59 @@ footer .goTop {
   }
   header.on .intorTxt {
     opacity: 0;
+  }
+  .gnb {
+    padding: 30px;
+    width: 70%;
+  }
+  .gnb ul li a,
+  .gnb .close {
+    font-size: 30px;
+  }
+  .visual .slide li img {
+    width: auto;
+    right: -120%;
+  }
+  .visual .slide li .txt {
+    font-size: 15px;
+  }
+  .visual .slide li .txt h3 {
+    font-size: 28px;
+  }
+  .visual .slide li .scroll {
+    font-size: 12px;
+    left: 0;
+  }
+  .slick-arrow {
+    width: 50px;
+    height: 50px;
+  }
+  .slick-arrow.slick-prev {
+    bottom: 50px;
+  }
+  @keyframes img {
+    0% {
+      opacity: 0;
+      right: -115%;
+      transform: scale(0.99);
+    }
+    100% {
+      opacity: 1;
+      right: -120%;
+    }
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 0;
+      left: -50px;
+    }
+    30% {
+      opacity: 0;
+      left: -50px;
+    }
+    100% {
+      opacity: 1;
+      left: 0px;
+    }
   }
 }
